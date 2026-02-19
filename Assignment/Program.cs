@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using System;
 using System.ComponentModel;
 using System.Numerics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
@@ -66,6 +67,19 @@ namespace Assignment
             //object o = 10;
             //long x = (long)o;
             //Console.WriteLine(x);
+            #endregion
+
+            #region Question 8
+            ///Fix this to avoid exceptions and print - 1 if conversion isn’t possible?
+            object o = "hello";
+            long x = 0;
+
+            if (o is int || o is long || o is short)
+                x = Convert.ToInt64(o);
+            else
+                x = -1;
+
+            Console.WriteLine(x);
             #endregion
         }
     }
