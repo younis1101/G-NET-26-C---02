@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Numerics;
 using System.Reflection.Metadata;
+using System.Xml.Linq;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
@@ -122,17 +123,19 @@ namespace Assignment
             #region Question 14
             ///Compare results and explain each result
             // A
-            int a = int.Parse(s); 
+            //int a = int.Parse(s); 
 
-            // B
-            int b = Convert.ToInt32(s); 
+            //// B
+            //int b = Convert.ToInt32(s); 
             #endregion
 
+            #region Question 15
+            // Complete the line to print "Guest" when user is null,
+            //otherwise print the user name in uppercase:
+            string? user = null;
+            Console.WriteLine(user?.ToUpper() ?? "Guest");
 
-
-
-
-
+            #endregion
 
 
         }
