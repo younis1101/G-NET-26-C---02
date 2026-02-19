@@ -3,6 +3,7 @@ using System;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Numerics;
+using System.Reflection.Metadata;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
@@ -99,16 +100,17 @@ namespace Assignment
             #endregion
             #region Question 11
             /// What’s wrong with this “safe” code and how can we solve it ?
-            string? s = null;
-            int x = int.Parse(s ?? "0");
-            Console.WriteLine(x);
+            //string? s = null;
+            //int x = int.Parse(s ?? "0");
+            //Console.WriteLine(x);
             #endregion
 
-
-
-
-
-
+            #region Question 12
+            ///What happens here and if there is a problem, handle it
+            string? s = null;
+            
+            Console.WriteLine(s?.Length ?? 0);
+            #endregion
 
 
 
