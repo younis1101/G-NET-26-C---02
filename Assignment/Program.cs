@@ -93,13 +93,16 @@ namespace Assignment
 
             #region Question 10
             ///What will this print and explain the process ?
-            string? name2 = null;
-            int length = name2?.Length ?? 0;
-            Console.WriteLine(length);
+            //string? name2 = null;
+            //int length = name2?.Length ?? 0;
+            //Console.WriteLine(length);
             #endregion
-
-
-
+            #region Question 11
+            /// What’s wrong with this “safe” code and how can we solve it ?
+            string? s = null;
+            int x = int.Parse(s ?? "0");
+            Console.WriteLine(x);
+            #endregion
 
 
 
