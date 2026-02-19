@@ -1,4 +1,6 @@
-﻿namespace Assignment
+﻿using System.ComponentModel;
+
+namespace Assignment
 {
     internal class Program
     {
@@ -21,6 +23,14 @@
             //double d2 = n / 2.0;
             //Console.WriteLine(d2); // 2.5
             #endregion
+
+            #region Question 3
+            ///You read a number from user input ..Write the correct line to get age as int.
+
+            int age = int.Parse(Console.ReadLine());
+
+            #endregion
+
 
 
         }
