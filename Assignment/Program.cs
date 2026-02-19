@@ -52,6 +52,12 @@ namespace Assignment
             //    Console.WriteLine("Invalid");
             #endregion
 
+            #region Question 6
+            ///What will this print and explain why ?
+            object o = 10;
+            int a = (int)o;
+            Console.WriteLine(a + 1);
+            #endregion
         }
     }
 }
