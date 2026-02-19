@@ -107,14 +107,17 @@ namespace Assignment
 
             #region Question 12
             ///What happens here and if there is a problem, handle it
-            string? s = null;
-            
-            Console.WriteLine(s?.Length ?? 0);
+            //string? s = null;
+
+            //Console.WriteLine(s?.Length ?? 0);
             #endregion
 
-
-
-
+            #region Question 13
+            ///What will this print ?
+            string? s = null;
+            int x = Convert.ToInt32(s);
+            Console.WriteLine(x);
+            #endregion
 
 
 
