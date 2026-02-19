@@ -27,9 +27,17 @@ namespace Assignment
             #region Question 3
             ///You read a number from user input ..Write the correct line to get age as int.
 
-            int age = int.Parse(Console.ReadLine());
+           // int age = int.Parse(Console.ReadLine());
 
             #endregion
+
+            #region Question 4
+            ///What happens here and why ?
+            string s = "12a";
+            int x = int.Parse(s);
+            Console.WriteLine(x);
+            #endregion
+
 
 
 
