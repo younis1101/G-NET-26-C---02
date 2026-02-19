@@ -1,4 +1,7 @@
-﻿using System.ComponentModel;
+﻿using Microsoft.VisualBasic;
+using System.ComponentModel;
+using System.Numerics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Assignment
 {
@@ -27,19 +30,27 @@ namespace Assignment
             #region Question 3
             ///You read a number from user input ..Write the correct line to get age as int.
 
-           // int age = int.Parse(Console.ReadLine());
+            // int age = int.Parse(Console.ReadLine());
 
             #endregion
 
             #region Question 4
             ///What happens here and why ?
-            string s = "12a";
-            int x = int.Parse(s);
-            Console.WriteLine(x);
+            // string s = "12a";
+            //int x = int.Parse(s);
+            //Console.WriteLine(x);
             #endregion
+            #region Question 5
+            //Complete the code from the previous question so it prints
+            //Invalid if conversion into int fails, otherwise prints the number
+            //1
 
-
-
+            //string s = "12a";
+            //if (int.TryParse(s, out int x))
+            //    Console.WriteLine(x);
+            //else
+            //    Console.WriteLine("Invalid");
+            #endregion
 
         }
     }
