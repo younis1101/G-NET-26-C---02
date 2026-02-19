@@ -54,9 +54,18 @@ namespace Assignment
 
             #region Question 6
             ///What will this print and explain why ?
-            object o = 10;
-            int a = (int)o;
-            Console.WriteLine(a + 1);
+            //object o = 10;
+            //int a = (int)o;
+            //Console.WriteLine(a + 1);
+            #endregion
+
+
+            #region Question 7
+            /// What will this print and explain why and if there is a problem handle it ?
+
+            //object o = 10;
+            //long x = (long)o;
+            //Console.WriteLine(x);
             #endregion
         }
     }
