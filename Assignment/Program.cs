@@ -113,11 +113,25 @@ namespace Assignment
             #endregion
 
             #region Question 13
-            ///What will this print ?
-            string? s = null;
-            int x = Convert.ToInt32(s);
-            Console.WriteLine(x);
+            ////What will this print ?
+            //string? s = null;
+            //int x = Convert.ToInt32(s);
+            //Console.WriteLine(x);
             #endregion
+
+            #region Question 14
+            ///Compare results and explain each result
+            // A
+            int a = int.Parse(s); 
+
+            // B
+            int b = Convert.ToInt32(s); 
+            #endregion
+
+
+
+
+
 
 
 
