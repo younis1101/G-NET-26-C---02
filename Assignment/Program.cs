@@ -1,6 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using System;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.Numerics;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -86,9 +87,32 @@ namespace Assignment
 
             #region Question 9
             /// What will this print and explain why ?
-            string? name = null;
-            Console.WriteLine(name?.Length);
+            //string? name = null;
+            //Console.WriteLine(name?.Length);
             #endregion
+
+            #region Question 10
+            ///What will this print and explain the process ?
+            string? name2 = null;
+            int length = name2?.Length ?? 0;
+            Console.WriteLine(length);
+            #endregion
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
