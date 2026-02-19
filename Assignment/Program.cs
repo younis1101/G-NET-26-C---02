@@ -71,15 +71,23 @@ namespace Assignment
 
             #region Question 8
             ///Fix this to avoid exceptions and print - 1 if conversion isn’t possible?
-            object o = "hello";
-            long x = 0;
 
-            if (o is int || o is long || o is short)
-                x = Convert.ToInt64(o);
-            else
-                x = -1;
+            //object o = "hello";
+            //long x = 0;
 
-            Console.WriteLine(x);
+            //if (o is int || o is long || o is short)
+            //    x = Convert.ToInt64(o);
+            //else
+            //    x = -1;
+
+            //Console.WriteLine(x);
+
+            #endregion
+
+            #region Question 9
+            /// What will this print and explain why ?
+            string? name = null;
+            Console.WriteLine(name?.Length);
             #endregion
         }
     }
