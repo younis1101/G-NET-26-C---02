@@ -132,8 +132,8 @@ namespace Assignment
             #region Question 15
             // Complete the line to print "Guest" when user is null,
             //otherwise print the user name in uppercase:
-            string? user = null;
-            Console.WriteLine(user?.ToUpper() ?? "Guest");
+            //string? user = null;
+            //Console.WriteLine(user?.ToUpper() ?? "Guest");
 
             #endregion
 
